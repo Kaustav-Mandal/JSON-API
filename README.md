@@ -16,8 +16,8 @@
 1. Import the project in STS/ Eclipse IDE and do a Maven update. 
 2. The default port is 8080 and base url is : http://localhost:8080/api/posts/
 3.  Run the below URLs from Postman client: 
-    http://localhost:8080/api/posts/api/ping --> [which returns sucess message]
-    http://localhost:8080/api/posts?tags=health&sortBy=likes&direction=asc --> [returns all the posts in ascending order by their likes and they are tagged to 'health']
+    http://localhost:8080/api/posts/api/ping --> [which returns success message]
+    http://localhost:8080/api/posts?tags=health&sortBy=likes&direction=asc --> [returns the posts which are tagged to 'health' and result appears in ascending order by #likes of each post
  
 ## Different Constraints on URL
 
